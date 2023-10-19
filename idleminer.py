@@ -10,6 +10,7 @@ configs = {
 }
 
 cmd = '/home/yihuihe/Documents/mine/1.76a/lolMiner --algo NEXA --pool stratum+tcp://nexapow.auto.nicehash.com:9200 --user YOUR_WALLET_ADDRESS.RIG_ID'
+cmd = './bzminer_v17.0.0_linux/bzminer -a nexa -w YOUR_WALLET_ADDRESS.RIG_ID -p stratum+tcp://nexapow.auto.nicehash.com:9200 --nc 1'
 
 for k, v in configs.items():
     cmd = cmd.replace(k, v)
